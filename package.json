@@ -1,0 +1,33 @@
+{
+  "name": "techtalk-rest-apis",
+  "version": "1.0.0",
+  "description": "Simple API REST in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/index.js",
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sighmir/techtalk-rest-apis.git"
+  },
+  "author": "Guilherme Caulada (Sighmir)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sighmir/techtalk-rest-apis/issues"
+  },
+  "homepage": "https://github.com/Sighmir/techtalk-rest-apis#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/morgan": "^1.7.37",
+    "@types/mysql": "^2.15.8",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  }
+}
